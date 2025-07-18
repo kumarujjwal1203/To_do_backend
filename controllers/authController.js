@@ -1,8 +1,7 @@
 import User from '../models/User.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-
-const JWT_SECRET = 'my_very_secret_key'; // Hardcoded JWT secret key
+const JWT_SECRET = your_jwt_secret_key;
 
 // REGISTER controller
 export const register = async (req, res) => {
